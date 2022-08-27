@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>i am a student and i am a fronted and backend developer.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>chandramani kumari</h2>
+              <p class="title">Developer</p>
+              <p>i am a student and i am a fronted and backend developer.</p>
+              <p>chandramani21april@gmailcom</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>mukhi</h2>
+              <p class="title">Art Director</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>mike@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>John Doe</h2>
+              <p class="title">Designer</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>john@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div> 
+</body>
+</html>
